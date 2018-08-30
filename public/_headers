@@ -1,0 +1,56 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/offline-plugin-app-shell-fallback/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-c682f792db80bffb5108.js>; rel=preload; as=script
+/beach-day/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/a-walk-in-the-park/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/sailing-around-the-bay/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/puppies/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/about-2/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/about/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/tag/fun/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/tag/play/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/tag/obedient/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/tag/fancy/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/tag/cute/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/404/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/contact/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
+/404.html
+  Link: </webpack-runtime-3498f0fd75ae2566aaf6.js>; rel=preload; as=script
+  Link: </0-f8b5f50915ca6085ec96.js>; rel=preload; as=script
