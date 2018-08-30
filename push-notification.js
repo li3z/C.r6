@@ -12,12 +12,14 @@ export const initializeFirebase = () => {
 
 export const  askForPermissioToReceiveNotifications = () => {
   
-   var prom1 = new Promise((resolve,rejected)=>{
+   var prom1 = new Promise((resolve,reject)=>{
     const messaging = firebase.messaging();
     messaging.requestPermission();
     const token = messaging.getToken();
+    console.log(token);
     resolve(token);
    })
+   
    return prom1.then((token)=>{
     fetch("https://iid.googleapis.com/iid/v1/"+ token + "/rel/topics/all",{
       method: 'POST',
