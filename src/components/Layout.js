@@ -7,7 +7,7 @@ import theme from '../styles/theme'
 import config from '../utils/siteConfig'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
-
+import { askForPermissioToReceiveNotifications } from '../../push-notification';
 const Template = ({ children }) => {
   return (
     <div className="siteRoot">
@@ -29,11 +29,16 @@ const Template = ({ children }) => {
           <div className="siteContent">
             <Menu />
             {children}
+            <button onClick={askForPermissioToReceiveNotifications} >
+              Click here to receive notifications
+            </button>
           </div>
           <Footer />
         </>
       </ThemeProvider>
     </div>
+   
+  
   )
 }
 
