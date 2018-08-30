@@ -35,7 +35,8 @@ export const askForPermissioToReceiveNotifications = async () => {
             'Authorization': 'key=AAAAv_R6z5E:APA91bHLXWzm5oMfs44Q6iZRxOQhI9-kQKaxpeY497zYE_XamXGlPymImjGhXpst_zjv89h4zrRWh7DmoPpw8rCnHXhmHAIcSWl75A6d5sPq0TNgLDGaemewxe7BIhW4fqLt5nLFekDX',
             'Content-Type' : 'application/json'
           },
-          method :"POST"
+          method :"POST",
+          mode:"no-cors"
         }).then(res => console.log(res))
           .catch(error => console.error('Error:', error))
           .then(response => console.log('Success:', response));
