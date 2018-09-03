@@ -44,9 +44,9 @@ const activeLinkStyle = {
   color: 'white',
 }
 
-const Menu = () => {
+const Menu = (props) => {
   return (
-    <Header>
+    <Header style={props.style}>
       <Nav>
         <ul>
           <li>

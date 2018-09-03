@@ -8,6 +8,8 @@ import config from '../utils/siteConfig'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import { askForPermissioToReceiveNotifications } from '../../push-notification';
+import Sticky from 'react-stickynode';
+
 const Template = ({ children }) => {
   return (
     <div className="siteRoot">
@@ -27,7 +29,10 @@ const Template = ({ children }) => {
       <ThemeProvider theme={theme}>
         <>
           <div className="siteContent">
-            <Menu />
+            <Sticky top='#header' bottomBoundary='#content' innerZ ={10}>
+              <Menu />
+            </Sticky>
+
             {children}
             <button onClick={askForPermissioToReceiveNotifications} >
               Click here to receive notifications
@@ -37,8 +42,8 @@ const Template = ({ children }) => {
         </>
       </ThemeProvider>
     </div>
-   
-  
+
+
   )
 }
 

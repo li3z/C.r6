@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-gcn",
-  "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
+  "name": "trifenix",
+  "description": "Empresa espacializada en la innovación continua en tecnología.",
   "version": "1.2.3",
   "repository": "https://github.com/ryanwiemer/gatsby-starter-gcn",
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
@@ -16,6 +16,7 @@
     "gatsby-plugin-canonical-urls": "next",
     "gatsby-plugin-feed": "next",
     "gatsby-plugin-google-analytics": "next",
+    "gatsby-plugin-google-tagmanager": "^1.0.19",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-netlify": "next",
     "gatsby-plugin-nprogress": "next",
@@ -35,11 +36,18 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
+    "react-stickynode": "^2.0.1",
     "styled-components": "^3.4.5",
     "whatwg-fetch": "^2.0.4"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "trifenix",
+    "jovenes",
+    "desarrollo",
+    "pwa",
+    "aplicaciones",
+    "prograsivas"
   ],
   "license": "MIT",
   "main": "n/a",
